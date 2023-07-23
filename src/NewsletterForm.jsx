@@ -24,10 +24,10 @@ export function NewsletterForm({
   }
 
   return (
-    <section className="px-[13rem] py-24 max-[1024px]:px-[6rem] max-[768px]:px-6 max-[414px]:p-0 ">
+    <section className="flex items-center justify-center p-6 max-[1024px]:px-[6rem] max-[768px]:px-6 max-[414px]:p-0 ">
       <div className="bg-white rounded-[32px] grid grid-cols-2 p-6 justify-items-end items-center h-max max-[414px]:rounded-none max-[414px]:grid-cols-1 max-[414px]:p-0 ">
         <div className="px-10 py-8 h-max max-[414px]:px-6">
-          <h1 className="text-charcoal-grey text-center text-6xl font-bold mb-6 max-[1024px]:text-5xl max-[768px]:text-4xl max-[414px]:text-left">
+          <h1 className="text-charcoal-grey text-center text-[3.5rem] font-bold mb-6 max-[1024px]:text-5xl max-[768px]:text-4xl max-[414px]:text-left">
             Stay updated!
           </h1>
           <p className="mb-6 text-sm">
@@ -71,7 +71,7 @@ export function NewsletterForm({
         </div>
         <div className="max-[414px]:row-start-1 max-[414px]:w-full">
           <img
-            className="max-h-full w-full max-[414px]:hidden"
+            className="h-full max-[414px]:hidden"
             src={IllustrationSignUpDesktop}
             alt=""
           />
